@@ -1,0 +1,15 @@
+Package: EllipsisCheck
+Type: Package
+Title: R CMD Ellipsis Check
+Version: 0.1.0
+Date: 2020-01-24
+Authors@R: person(c("Brian", "J"), "Smith",
+                  email = "brian-j-smith@uiowa.edu",
+                  role = c("aut", "cre"))
+Author: Brian J Smith [aut, cre]
+Maintainer: Brian J Smith <brian-j-smith@uiowa.edu>
+Description: Demonstrates R CMD check warning produced by registration of a
+    formula method when it and its S3 generic both have an ellipsis as the first
+    argument.
+License: GPL-3
+RoxygenNote: 7.0.2

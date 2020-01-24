@@ -1,0 +1,12 @@
+export(combine)
+
+S3method(combine, default)
+S3method(combine, data.frame)
+S3method(combine, factor)
+S3method(combine, formula)
+S3method(combine, list)
+S3method(combine, logical)
+S3method(combine, matrix)
+S3method(combine, numeric)
+
+S3method(c, formula)
