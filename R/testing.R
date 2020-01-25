@@ -35,4 +35,4 @@ combine.matrix <- function(...) c(...)
 combine.numeric <- function(...) c(...)
 
 
-c.formula <- function(...) c(...)
+c.formula <- function(...) NextMethod()
